@@ -10,15 +10,16 @@
     <%= stylesheet_link_tag 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
     <%= javascript_include_tag 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js' %>
   <% end %>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track' => true %>
 
   <%= csrf_meta_tags %>
-  <style>
-</style>
+
 </head>
+<!-- Begin Header -->
 <header>
   <center><h1><%= link_to "WYNSHOPPE", root_path %></h1></center>
 </header>
+<!-- End Header -->
   <body>
     <!-- <div class="containter"> -->
       <div class="row">
@@ -63,9 +64,9 @@
       		</div>
       	</div>
       </nav>
-      <!-- <div class="main">
-        #content here
-      </div> -->
+      <div>
+      </div>
+
     <%= yield %>
   </div>
   </body>
@@ -78,7 +79,7 @@
         <!-- Begin copyright -->
         <div class="span12 tc copyright">
           <a href="/">Return Policy</a>
-          <p>Copyright &copy; 2017 WYNSHOPPE &amp; WYNSHOPPE</p>
+          <p>Copyright &copy; 2017 WYNSHOPPE &amp; CO</p>
         </div>
         <!-- End copyright -->
 
