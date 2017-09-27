@@ -13,7 +13,7 @@
   img {
     position: absolute;
     top: 0; left: 0;
-    z-index: 6;
+    z-index: 3;
     -webkit-animation: slideshow 12s linear 0s infinite;
     -moz-animation: slideshow 12s linear 0s infinite;
     -ms-animation: slideshow 12s linear 0s infinite;
@@ -22,7 +22,7 @@
   }
 
   img:nth-child(2) {
-    z-index: 5;
+    z-index: 2;
     -webkit-animation: slideshow 12s linear 4s infinite;
     -moz-animation: slideshow 12s linear 4s infinite;
     -ms-animation: slideshow 12s linear 4s infinite;
@@ -31,7 +31,7 @@
   }
 
   img:nth-child(3) {
-    z-index: 4;
+    z-index: 1;
     -webkit-animation: slideshow 12s linear 8s infinite;
     -moz-animation: slideshow 12s linear 8s infinite;
     -ms-animation: slideshow 12s linear 8s infinite;
@@ -39,32 +39,7 @@
     animation: slideshow 12s linear 8s infinite;
   }
 
-  img:nth-child(4) {
-    z-index: 4;
-    -webkit-animation: slideshow 12s linear 8s infinite;
-    -moz-animation: slideshow 12s linear 8s infinite;
-    -ms-animation: slideshow 12s linear 8s infinite;
-    -o-animation: slideshow 12s linear 8s infinite;
-    animation: slideshow 12s linear 8s infinite;
-  }
 
-  img:nth-child(5) {
-    z-index: 4;
-    -webkit-animation: slideshow 12s linear 8s infinite;
-    -moz-animation: slideshow 12s linear 8s infinite;
-    -ms-animation: slideshow 12s linear 8s infinite;
-    -o-animation: slideshow 12s linear 8s infinite;
-    animation: slideshow 12s linear 8s infinite;
-  }
-
-  img:nth-child(6) {
-    z-index: 4;
-    -webkit-animation: slideshow 12s linear 8s infinite;
-    -moz-animation: slideshow 12s linear 8s infinite;
-    -ms-animation: slideshow 12s linear 8s infinite;
-    -o-animation: slideshow 12s linear 8s infinite;
-    animation: slideshow 12s linear 8s infinite;
-  }
 
   @-webkit-keyframes slideshow {
     25% { opacity: 1;}
