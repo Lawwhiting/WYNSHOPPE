@@ -1,6 +1,6 @@
 <% if @order.errors.any? || @order_item.errors.any? %>
 alert("not valid")
 <% else %>
-<% flash[:alert] = "Successfully added" %>
-// $(".cart-text").html("<%= escape_javascript(render 'layouts/cart_text') %>")
+// # <% flash[:alert] = "Successfully added" %>
+$(".cart-text").html("<%= escape_javascript(render 'layouts/cart_text') %>")
 <% end %>
